@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background</title>
+    
+    <style>
+        * {
+            margin: 0; 
+            padding: 0px; 
+        }
+        
+        #container {
+            height: 100vh; 
+            width: 100vw; 
+            background-color: black; 
+        }
+        
+        .center {
+            height: 100%; 
+            width: 100%;  
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+        }
+        
+        button {
+            padding: 10px; 
+            background: white; 
+            color: black; 
+            border: none; 
+            outline: none; 
+        }
+        
+        button:hover {
+            color: white; 
+            background: black; 
+            transition: 0.2s; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="center"> 
+            <button type="button">I feel lucky!</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
